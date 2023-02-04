@@ -14,93 +14,112 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <h1>Items</h1>
-    <div class="container blue m-1 b-1">
-      <div class="article1 row border border-secondary rounded-3 mt-1">
+    <div class="w-75 p-3 b-10">
+      <div
+        class="article d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row border border-secondary rounded-3 mt-1 align-items-center"
+      >
         <img
           class="img-responsive col-2 m-1"
           src="./assets/article1.jfif"
           alt="article1"
         />
-        <h2 class="d-flex col align-items-center" name="article1">
-          Twix x&nbsp <span id="nbr">0</span>
-        </h2>
-        <h2 class="d-flex col align-items-center justify-content-end">
-          <span id="prix">8</span>&nbspTND
-        </h2>
-        <button
-          type="button"
-          onclick="articlePlus(event)"
-          class="btn d-flex col-lg-1 align-items-center w-1"
-        >
+        <h2 class="col p-0 m-0">KitKat x&nbsp <span class="nbr">0</span></h2>
+        <button type="button" onclick="articlePlus(event)" class="btn">
           +
         </button>
-        <button
-          type="button"
-          onclick="articleMinus(event)"
-          class="btn d-flex col-lg-1 align-items-center w-10"
-        >
+        <button type="button" onclick="articleMinus(event)" class="btn">
           -
         </button>
+        <button type="button" onclick="articleDelete(event)" class="btn">
+          x
+        </button>
+        <button type="button" onclick="modifierCouleur(event)" class="btn">
+          c
+        </button>
+        <h2 class="justify-content-end">
+          <span class="prix">20 </span>&nbspTND&nbsp
+        </h2>
       </div>
-      <div class="article1 row border border-secondary rounded-3 mt-1">
+      <div
+      class="article d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row border border-secondary rounded-3 mt-1 align-items-center"
+    >
+      <img
+        class="img-responsive col-2 m-1"
+        src="./assets/article2.jfif"
+        alt="article2"
+      />
+      <h2 class="col p-0 m-0">Twix x&nbsp <span class="nbr">0</span></h2>
+      <button type="button" onclick="articlePlus(event)" class="btn">
+        +
+      </button>
+      <button type="button" onclick="articleMinus(event)" class="btn">
+        -
+      </button>
+      <button type="button" onclick="articleDelete(event)" class="btn">
+        x
+      </button>
+      <button type="button" onclick="modifierCouleur(event)" class="btn">
+        c
+      </button>
+      <h2 class="justify-content-end">
+        <span class="prix">15 </span>&nbspTND&nbsp
+      </h2>
+    </div>
+    <div
+        class="article d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row border border-secondary rounded-3 mt-1 align-items-center"
+      >
         <img
           class="img-responsive col-2 m-1"
-          src="./assets/article2.jfif"
-          alt="article2"
-        />
-        <h2 class="d-flex col align-items-center" name="article1">
-          Twix x&nbsp <span id="nbr">0</span>
-        </h2>
-        <h2 class="d-flex col align-items-center justify-content-end">
-          <span id="prix">10 </span>&nbspTND
-        </h2>
-        <button
-          type="button"
-          onclick="articlePlus(event)"
-          class="btn d-flex col-lg-1 align-items-center"
-        >
-          +
-        </button>
-        <button
-          type="button"
-          onclick="articleMinus(event)"
-          class="btn d-flex col-lg-1 align-items-center"
-        >
-          -
-        </button>
-      </div>
-      <div class="article1 row border border-secondary rounded-3 mt-1">
-        <img
-          class="img-responsive col-2 m-1"
-          src="./assets/article3.jfif"
+          src="./assets/article3.png"
           alt="article3"
         />
-        <h2 class="d-flex col align-items-center" name="article1">
-          Twix x&nbsp <span id="nbr">0</span>
-        </h2>
-        <h2 class="d-flex col align-items-center justify-content-end">
-          <span id="prix">200 </span>&nbspTND
-        </h2>
-        <button
-          type="button"
-          onclick="articlePlus(event)"
-          class="btn d-flex col-lg-1 align-items-center"
-        >
+        <h2 class="col p-0 m-0">Bueno x&nbsp <span class="nbr">0</span></h2>
+        <button type="button" onclick="articlePlus(event)" class="btn">
           +
         </button>
-        <button
-          type="button"
-          onclick="articleMinus(event)"
-          class="btn d-flex col-lg-1 align-items-center"
-        >
+        <button type="button" onclick="articleMinus(event)" class="btn">
           -
         </button>
+        <button type="button" onclick="articleDelete(event)" class="btn">
+          x
+        </button>
+        <button type="button" onclick="modifierCouleur(event)" class="btn">
+          c
+        </button>
+        <h2 class="justify-content-end">
+          <span class="prix">8 </span>&nbspTND&nbsp
+        </h2>
+      </div>
+      <div
+        class="article d-flex flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row border border-secondary rounded-3 mt-1 align-items-center"
+      >
+        <img
+          class="img-responsive col-2 m-1"
+          src="./assets/article4.png"
+          alt="article4"
+        />
+        <h2 class="col p-0 m-0">Twix x&nbsp <span class="nbr">0</span></h2>
+        <button type="button" onclick="articlePlus(event)" class="btn">
+          +
+        </button>
+        <button type="button" onclick="articleMinus(event)" class="btn">
+          -
+        </button>
+        <button type="button" onclick="articleDelete(event)" class="btn">
+          x
+        </button>
+        <button type="button" onclick="modifierCouleur(event)" class="btn">
+          c
+        </button>
+        <h2 class="justify-content-end">
+          <span class="prix">40 </span>&nbspTND&nbsp
+        </h2>
+      </div>
+      <div class="d-flex justify-content-end">
+        <h1>Total&nbsp <span id="totalArticles">0</span></h1>
       </div>
     </div>
-    <div class="d-flex">
-      <h1>Total&nbsp <span id="totalArticles">0</span> </h1>
-    </div>
+
     <script src="./index.js"></script>
   </body>
 </html>

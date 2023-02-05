@@ -31,7 +31,8 @@ let nameRegEx = /[a-z]+/;
 let numberRegEx = /[0-9]+/;
 let error = document.createElement("p");
 let submitBtn = document.querySelector("button");
-
+submitBtn.disabled = true;
+submitBtn.style.backgroundColor = "grey";
 error.innerText = "Please enter a valid email";
 error.style.color = "red";
 error.style.fontSize = "12px";
